@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lazyloadLine</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIView *)lineView {
+    
+    if (!_lineView) {
+        _lineView = [UIView new];
+        _lineView.backgroundColor = UIColorFromRGB(0xE5E5E5, 1);
+    }
+    return _lineView;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1A467976-1FA4-4923-9A99-9735A535497F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>lazy load line</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>lazyloadLine</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

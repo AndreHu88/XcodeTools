@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lazyloadButton</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIButton *)&lt;#name#&gt;{
+    
+    if (!&lt;#name#&gt;) {
+        &lt;#name#&gt; = [UIButton buttonWithType:UIButtonTypeCustom];
+        [&lt;#name#&gt; setBackgroundImage:[UIImage imageNamed:@"&lt;#imageName#&gt;"] forState:UIControlStateNormal];
+        [&lt;#name#&gt; setImage:[UIImage imageNamed:@"&lt;#imageName#&gt;"] forState:UIControlStateSelected];
+        [&lt;#name#&gt; setTitle:@"&lt;#text#&gt;" forState:UIControlStateNormal];
+        &lt;#name#&gt;.titleLabel.font = SystemFont(&lt;#size#&gt;);
+        [&lt;#name#&gt; setTitleColor: UIColorFromRGB(0x&lt;#rgbValue#&gt;, 1) forState:UIControlStateNormal];
+    }
+    return &lt;#name#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CE51CAA0-5AE7-492B-B374-171CBCC494EF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>lazyload Button</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>lazyload Button</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ViewSnpCGSize</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> [&lt;#name#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
+        
+        make.size.mas_equalTo(CGSizeMake(XCsize(&lt;#value#&gt;), XCsize(&lt;#value#&gt;)));
+        make.top.mas_equalTo(XCsize(&lt;#value#&gt;));
+        make.centerX.equalTo(self.view);
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7B330B7F-171A-497F-8894-6DEB65A71F61</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>设置size和Top</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ViewSnpCGSize</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

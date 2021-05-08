@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ReuseCell</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSString *cellID = NSStringFromClass([&lt;#class#&gt; class]);
+&lt;#cell#&gt; *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
+return cell;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7DBB00DF-7E7A-465A-B874-E60EA872ED35</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>重用Cell</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>dequeueReusableCell</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

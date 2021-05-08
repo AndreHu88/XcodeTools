@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>MarkAllStruct</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - life cycle
+#pragma mark - public Method
+#pragma mark - private method
+#pragma mark - event response
+#pragma mark - UITableViewDelegate
+#pragma mark - UITableViewDataSource
+#pragma mark - getters and setters</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E67B7368-B383-46D0-9481-11420485CDEE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Mark All Struct</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>MarkAllStruct</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
