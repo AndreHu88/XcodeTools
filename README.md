@@ -2,7 +2,7 @@
 
 #### Code Snippet是Xcode中的代码块，可以将一些常用的代码添加为Snippet
 
-`@property (nonatomic, copy) <#returnType#>(^<#blockName#>)(<#arguments#>);`
+`[_tableView registerClass:[<#name#> class] forCellReuseIdentifier:NSStringFromClass([<#name#> class])];`
 
 `@property (nonatomic, copy) <#returnType#>(^<#blockName#>)(<#arguments#>);`
 
@@ -76,7 +76,8 @@ Xcode的Snippet 的目录 `~/Library/Developer/Xcode/UserData/CodeSnippets`
  将Clone下来的项目中的FileTemplate中的文件拖入 该目录即可
  
 #### OC Extension
- 该目录中存放一些OC中常用的扩展类
+*  Foundation中存放一些Cocoa Foundation中常用的扩展类
+*  UIKit中存放一些Cocoa中常用的扩展类
  
 #### Swift Extension
 该目录中存放一些Swift中常用的扩展类
