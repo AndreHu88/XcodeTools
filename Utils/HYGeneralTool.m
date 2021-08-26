@@ -80,4 +80,42 @@
     }
 }
 
++ (void)openAppSetting{
+    
+    NSURL * url = [NSURL URLWithString:UIApplicationOpenSettingsURLString];
+    if([[UIApplication sharedApplication] canOpenURL:url]) {
+        
+        NSURL *url =[NSURL URLWithString:UIApplicationOpenSettingsURLString];
+        if (@available(iOS 10.0, *)) {
+            
+            [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:^(BOOL success) {
+                
+            }];
+        }
+        else {
+            [[UIApplication sharedApplication] openURL:url];
+        }
+    }
+}
+
++ (void)applicationOpenURL:(NSString *)urlStr {
+    
+    NSURL * url = [NSURL URLWithString: urlStr];
+    
+    if([[UIApplication sharedApplication] canOpenURL:url]) {
+        
+        NSURL *url =[NSURL URLWithString:UIApplicationOpenSettingsURLString];
+        if (@available(iOS 10.0, *)) {
+            
+            [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:^(BOOL success) {
+                
+            }];
+        }
+        else {
+            [[UIApplication sharedApplication] openURL:url];
+        }
+    }
+    
+}
+
 @end

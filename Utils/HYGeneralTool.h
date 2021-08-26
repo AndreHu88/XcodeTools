@@ -28,6 +28,12 @@ NS_ASSUME_NONNULL_BEGIN
 /** share URL */
 + (void)shareURL:(NSURL *)url formVC:(UIViewController *)vc;
 
+/** 打开APP的系统设置页码 */
++ (void)openAppSetting;
+
+/** 打开外部的URL */
++ (void)applicationOpenURL:(NSString *)urlStr;
+
 @end
 
 NS_ASSUME_NONNULL_END
