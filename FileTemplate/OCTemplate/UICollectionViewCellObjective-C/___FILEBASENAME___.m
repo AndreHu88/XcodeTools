@@ -4,14 +4,14 @@
 
 @interface ___FILEBASENAMEASIDENTIFIER___ ()
 
+
 @end
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
-- (instancetype)initWithFrame:(NSRect)frame {
+- (instancetype)initWithFrame:(CGRect)frame {
     
-    self = [super initWithFrame:frame];
-    if (self) {
+    if (self = [super initWithFrame:frame]) {
         
         [self setupSubViews];
         [self setupViewLayouts];
@@ -26,16 +26,22 @@
 
 - (void)setupViewLayouts {
     
-    
+   
 }
 
+
 #pragma mark - Events
- 
+
+#pragma mark - UIOtherComponentDelegate
+
+#pragma mark - Custom Delegates
+
 #pragma mark - Public Methods
- 
+
 #pragma mark - Private Methods
 
-#pragma mark - Setter & Getter
+#pragma mark - Setter
 
+#pragma mark - Getter
 
 @end

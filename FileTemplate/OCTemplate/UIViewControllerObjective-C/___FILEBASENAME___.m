@@ -43,21 +43,17 @@
 
 #pragma mark - Events
  
-#pragma mark - UITextFieldDelegate
- 
 #pragma mark - UITableViewDataSource
  
 #pragma mark - UITableViewDelegate
- 
-#pragma mark - UIOtherComponentDelegate
- 
-#pragma mark - Custom Delegates
  
 #pragma mark - Public Methods
  
 #pragma mark - Private Methods
 
-#pragma mark - Setter & Getter
+#pragma mark - Setter
+
+#pragma mark - Getter
 
 
 @end

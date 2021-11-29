@@ -23,6 +23,9 @@
 
 #pragma mark - Private Methods
 
-#pragma mark - Getters and Setters
+
+#pragma mark - Setter
+
+#pragma mark - Getter
 
 @end

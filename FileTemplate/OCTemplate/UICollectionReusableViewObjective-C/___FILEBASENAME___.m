@@ -9,11 +9,9 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
-#pragma mark - Life cycle
-- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
+- (instancetype)initWithFrame:(CGRect)frame {
     
-    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
-    if (self) {
+    if (self = [super initWithFrame:frame]) {
         
         [self setupSubViews];
         [self setupViewLayouts];
@@ -34,14 +32,14 @@
 
 #pragma mark - Events
 
-#pragma mark - UIOtherComponentDelegate
-
 #pragma mark - Custom Delegates
 
 #pragma mark - Public Methods
 
 #pragma mark - Private Methods
 
-#pragma mark - Getters and Setters
+#pragma mark - Setter
+
+#pragma mark - Getter
 
 @end
